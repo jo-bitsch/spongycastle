@@ -184,9 +184,7 @@ public final class BouncyCastleProvider extends Provider
         put("CertPathValidator.PKIX", "org.spongycastle.jce.provider.PKIXCertPathValidatorSpi");
         put("CertPathBuilder.PKIX", "org.spongycastle.jce.provider.PKIXCertPathBuilderSpi");
         put("CertStore.Collection", "org.spongycastle.jce.provider.CertStoreCollectionSpi");
-        put("CertStore.LDAP", "org.spongycastle.jce.provider.X509LDAPCertStoreSpi");
         put("CertStore.Multi", "org.spongycastle.jce.provider.MultiCertStoreSpi");
-        put("Alg.Alias.CertStore.X509LDAP", "LDAP");
     }
 
     private void loadAlgorithms(String packageName, String[] names)
